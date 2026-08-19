@@ -4,19 +4,20 @@
   "run_id": "20260818-170717-f70dff69",
   "status": "pass",
   "level": "full",
-  "matrix_size": 110,
-  "tests_passed": 110,
-  "tests_skipped": 76,
-  "tests_unverified": 76,
+  "matrix_size": 113,
+  "tests_passed": 113,
+  "tests_skipped": 78,
+  "tests_unverified": 78,
   "coverage_hollow": true,
   "hollow_features": [
-    "book"
+    "book",
+    "cancel"
   ],
   "auth_context": {
     "type": "api_key",
     "api_key_available": true
   },
-  "source_fingerprint": "d7421bb9265a0d8dd98d0be35dc4b2caeb7e78fcb9be13649d78ddcc9e393fb0",
+  "source_fingerprint": "48cf45c628756f5ea65c82c0899d95b41c3af6b4d06374ec79bc3910ee304a1b",
   "source_files": {
     "cmd/booksy-pp-cli/main.go": "b0bafffa6fca175b6e3ff35b3de61c456cbe2373db05d6b76a320a45474a1222",
     "cmd/booksy-pp-mcp/main.go": "a3c4579a48d9d6fa22236941b937231e8b2a7598dbcc96a6fc156e33187725a6",
@@ -27,7 +28,7 @@
     "internal/cli/auth.go": "ef82f96a1eb36bdef69e5e190e991202efd29abeb421374e7b27dfb47f80aae8",
     "internal/cli/availability.go": "b23f625828065e7695c4d211d3d47ea20e70709989bb753a1b8d4d748720c428",
     "internal/cli/availability_test.go": "33a851630e42a95adafca3e3e429695bc8239b0eb08282b666f97c1abefa63f3",
-    "internal/cli/book.go": "c16714403aad600039832036a668ee90da99962dda7abe626c653f57dc5e5e80",
+    "internal/cli/book.go": "152f83d14f04a33b1023a615ef761887a869346d2a7373ba4af267064699d37b",
     "internal/cli/book_test.go": "4b8f521149a0fa707e5cfb10d88a53439ab528f75dd74fcf8b3a0f0d087fb5e2",
     "internal/cli/booksy_domain.go": "dc382c2ceff650e4eb800ca5cebda010b686bbb6e6df5c3cc4e986c259dd6bcb",
     "internal/cli/booksy_domain_test.go": "5f9da07c2191145a238e8938e8e2183d32704105e3d96f11b8874b7249eee666",
@@ -35,6 +36,7 @@
     "internal/cli/businesses_get.go": "f584e9d98679dd2306448f58a2f0062aa9b85642389679fa99f2e4a93882af18",
     "internal/cli/businesses_reviews.go": "b69999d31964a9554e1e24dabe5ae8d7da1cc6ff62250a863e93d7395cc49bb5",
     "internal/cli/businesses_search.go": "019057ea9a2817cea336a409ecb66c6f217c3f80cc96dcd44ee98491047bd7b1",
+    "internal/cli/cancel.go": "9149576ed71fa628d0a9d36a9ef123181f8b2686403fdf94a8bdd39cafe1b0fd",
     "internal/cli/channel_workflow.go": "67f9c11844107e532d1491196522f49e231a8a56e0e329cc1d0566311d00c248",
     "internal/cli/cheapest.go": "912962ec95e4a8022972874a20dc67c36f826565a48a6d1b04c3a860fd1f9aa7",
     "internal/cli/cheapest_test.go": "c67cc8de9dd3c952fb6d0ec32e1c43f0352f3bb2788a214f85e5eb48d71312a8",
